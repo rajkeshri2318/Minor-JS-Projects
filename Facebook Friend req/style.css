@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium';
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: cornflowerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#card {
+    height: 450px;
+    width: 300px;
+    color: white;
+    border: solid;
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+    text-align: center;
+    
+}
+
+#card img {
+    height: 50%;
+    width: 100%;
+    border-radius: 10px;   
+    
+}
+
+#card h1 {
+    color: black;
+    font-size: 25px;
+    
+    padding: 10px 0;
+}
+
+#card h5 {
+    color: red;
+    margin: 20px;
+    font-size: 25px ;
+
+}
+
+#card button {
+    background-color: cadetblue;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    font-weight: 700;
+    
+}
+
+#card button:hover {
+    cursor: pointer;
+}
